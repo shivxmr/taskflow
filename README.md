@@ -14,17 +14,17 @@ A modern, responsive task management application built with React, Node.js, and 
 
 ## Screenshots
 
-### Dashboard View
-![Dashboard](screenshots/dashboard.png)
-The dashboard provides a comprehensive overview of your tasks with statistics, completion rates, and priority breakdown.
+
 
 ### Tasks Management
 ![Tasks](screenshots/tasks.png)
-Manage all your tasks with an intuitive interface featuring filtering, search, and easy task operations.
 
-### Task Creation & Editing
+
+### Task Dashboard
 ![Task Dialog](screenshots/task-dialog.png)
-Create and edit tasks with a clean dialog interface supporting all task properties including title, description, priority, status, and due dates.
+
+### DB View
+![Dashboard](screenshots/db.png)
 
 ## Tech Stack
 
