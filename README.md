@@ -15,15 +15,16 @@ A modern, responsive task management application built with React, Node.js, and 
 ## Screenshots
 
 ### Dashboard View
+![Dashboard](screenshots/dashboard.png)
+The dashboard provides a comprehensive overview of your tasks with statistics, completion rates, and priority breakdown.
 
 ### Tasks Management
 ![Tasks](screenshots/tasks.png)
+Manage all your tasks with an intuitive interface featuring filtering, search, and easy task operations.
 
-### Dashboard
-![Dashboard](screenshots/task-dialog.png)
-
-### DB
-![MongoDB](screenshots/db.png)
+### Task Creation & Editing
+![Task Dialog](screenshots/task-dialog.png)
+Create and edit tasks with a clean dialog interface supporting all task properties including title, description, priority, status, and due dates.
 
 ## Tech Stack
 
@@ -202,12 +203,16 @@ taskflow/
 │   │   ├── components/
 │   │   │   ├── Tasks/
 │   │   │   │   └── TaskDialog.tsx
+│   │   │   ├── Navbar.tsx
 │   │   │   └── ui/             # shadcn/ui components
 │   │   ├── contexts/
 │   │   │   ├── AuthContext.tsx
 │   │   │   └── ThemeContext.tsx
 │   │   ├── hooks/
+│   │   │   ├── use-mobile.tsx
+│   │   │   └── use-toast.tsx
 │   │   ├── lib/
+│   │   │   └── utils.ts
 │   │   ├── pages/
 │   │   │   ├── Dashboard.tsx
 │   │   │   ├── Login.tsx
@@ -217,10 +222,24 @@ taskflow/
 │   │   ├── services/
 │   │   │   └── api.ts         # API service layer
 │   │   ├── App.tsx
-│   │   └── main.tsx
+│   │   ├── index.css
+│   │   ├── main.tsx
+│   │   └── vite-env.d.ts
+│   ├── components.json
+│   ├── eslint.config.js
+│   ├── index.html
 │   ├── package.json
-│   ├── vite.config.ts
-│   └── tailwind.config.ts
+│   ├── postcss.config.js
+│   ├── tailwind.config.ts
+│   ├── tsconfig.app.json
+│   ├── tsconfig.json
+│   ├── tsconfig.node.json
+│   └── vite.config.ts
+├── screenshots/
+│   ├── dashboard.png          # Dashboard view screenshot
+│   ├── tasks.png              # Tasks management screenshot
+│   └── task-dialog.png        # Task creation/editing dialog
+├── .gitignore
 └── README.md
 ```
 
