@@ -12,6 +12,19 @@ A modern, responsive task management application built with React, Node.js, and 
 - 📱 **Responsive Design** works on all devices
 - ⚡ **Real-time Updates** with React Query
 
+## Screenshots
+
+### Dashboard View
+
+### Tasks Management
+![Tasks](screenshots/tasks.png)
+
+### Dashboard
+![Dashboard](screenshots/task-dialog.png)
+
+### DB
+![MongoDB](screenshots/db.png)
+
 ## Tech Stack
 
 ### Frontend
